@@ -5,6 +5,8 @@ If an element is 0, then you cannot move through that element.
 
 Note: Return -1 if you can't reach the end of the array.
 """
+
+
 class Solution:
     def minJumps(self, arr, n):
         if n <= 1:
